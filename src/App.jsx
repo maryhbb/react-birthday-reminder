@@ -1,19 +1,11 @@
-import { memo } from "react";
-import styled from "styled-components";
-import GlobalStyles from "./globalStyles.js";
-
-const Title = styled.h1`
-  color: #666;
-`;
-
+import "./index.css";
 function App() {
   return (
     <>
-      <GlobalStyles />
-      <Title>Welcome</Title>
+      <h1>Welcome</h1>
       <p>Use this as a starting point to develop your own application :-)</p>
     </>
   );
 }
 
-export default memo(App);
+export default App;
